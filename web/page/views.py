@@ -10,6 +10,11 @@ def index(request):
         fs.save(upload_file.name, upload_file)
     return render(request, 'index.html')
 
+def upload(request):
+    return render(request, 'upload.html')
+
+def webcam(request):
+    return render(request, 'webcam.html')
 
 def show(request):
     return render(request, 'show.html')

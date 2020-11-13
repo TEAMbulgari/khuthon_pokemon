@@ -1,22 +1,13 @@
+<!--메인에 접속했을 때 보이는 화면, 파일 업로드 OR 직접 웹캠 촬영 버튼-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Pokemon</title>
+
 </head>
 <body>
-    <form action = "" method="POST" enctype="multipart/form-data" novalidate>
-        {% csrf_token %}
-        <div class="input-group">
-          <div class="custom-file">
-            {{ form.upload_file }}
-            <input type="file" name="photo">
-            <label>Choose file</label>
-          </div>
-          <div>
-            <button type="submit">Submit</button>
-          </div>
-        </div>
-      </form>
+    <a href="/upload">파일 직접 업로드하기</a>
+    <a href="/cam">사진 촬영하기</a>
 </body>
 </html>

@@ -21,5 +21,7 @@ from page import views as pageView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',pageView.index, name = 'index'),
+    path('upload/', pageView.upload, name = 'upload'),
+    path('cam/', pageView.webcam, name='webcam'),
     path('show/', pageView.show, name = 'show'),
 ]
