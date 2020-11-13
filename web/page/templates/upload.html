@@ -1,0 +1,25 @@
+<!--파일 업로드로 사진 올리는 페이지-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon</title>
+</head>
+<body>
+    <form action="" method="POST" enctype="multipart/form-data" novalidate>
+        {% csrf_token %}
+        <div class="input-group">
+          <div class="custom-file">
+            {{ form.upload_file }}
+            <input type="file" name="photo">
+            <label>Choose file</label>
+          </div>
+          <div>
+            <button type="button">
+                <a href="{% url 'show' %}">Submit</a>
+            </button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>
