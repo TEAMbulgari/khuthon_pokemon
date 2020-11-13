@@ -24,4 +24,5 @@ urlpatterns = [
     path('upload/', pageView.upload, name = 'upload'),
     path('cam/', pageView.webcam, name='webcam'),
     path('show/', pageView.show, name = 'show'),
+    path('canvasToImage/', pageView.canvasToImage, name='canvasToImage'),
 ]

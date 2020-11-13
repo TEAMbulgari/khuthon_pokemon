@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <title>Pokemon</title>
+    <style>
+        body{
+            background: url("../static/css/img/show_background.png") no-repeat fixed 50% 50%/100% 100%;
+        }
+    </style>
 </head>
 <body>
-    나는 고라파덕을 닮았다.
+    <h1>당신은 {{result}} 를 가장 많이 닮았습니다.</h1>
 </body>
 </html>
