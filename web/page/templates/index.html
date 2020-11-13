@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon</title>
+</head>
+<body>
+    <form action = "" method="POST" enctype="multipart/form-data" novalidate>
+        {% csrf_token %}
+        <div class="input-group">
+          <div class="custom-file">
+            {{ form.upload_file }}
+            <input type="file" name="photo">
+            <label>Choose file</label>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>
