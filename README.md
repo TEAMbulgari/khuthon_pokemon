@@ -5,7 +5,7 @@
 
 학습된 모델은 [`배포본: media/page/files/final_model.hdf`](https://github.com/TEAMbulgari/pokemon_deploy/tree/main/media/page/files)에서 확인하실 수 있으며, 모델의 학습 과정은 `포켓몬닮은꼴모델_학습과정.ipynb`에서 확인할 수 있습니다.  
   
-[너.. 약간 포켓몬 닮은 것 같은데? 실행하기](https://pokemon-like-me.herokuapp.com/)
+[너.. 약간 포켓몬 닮은 것 같은데? 실행하기](https://pokemon-like-me.herokuapp.com/)  
 [배포용 프로젝트 깃허브](https://github.com/TEAMbulgari/pokemon_deploy)
 
 **팀원**
