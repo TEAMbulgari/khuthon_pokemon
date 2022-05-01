@@ -31,6 +31,6 @@ python manage.py runserver
 
 ## Github
 김수현 https://github.com/iwillbeaprogramer  
-박승혜 https://github.com/con11234  
+박승혜 https://github.com/con11235  
 서민정 https://github.com/seovalue  
 이동주 https://github.com/djlee514 
